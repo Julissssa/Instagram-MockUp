@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(246, 246, 246);
+    height: 3000px;
+}
+
+.header {
+    height: 59px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .left-section {
+    margin-left: 0;
+    align-items: center;
+    display: flex;
+  }
+
+  .ig-logo {
+      height: 39px;
+      margin-left: 335px;
+  }
+  
+  .middle-section {
+    flex: 1;
+    margin-left: 220px;
+    margin-right: 75px;
+    max-width: 270px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar {
+    flex: 1;
+    margin-bottom: 0;
+    height: 35px;
+    border-radius: 9px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+  }
+
+  .search-bar::placeholder {
+    padding-left: 40px;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(171, 171, 171);
+  }
+  
+  .right-section {
+    width: 500px;
+    margin-right: 96px;
+    display: flex;
+    align-items: center;
+  }
+
+  .home {
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .messenger {
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .add-story {
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .explore {
+    height: 23px;
+    margin-right: 18px;
+  }
+
+  .heart {
+    height: 27px;
+    margin-right: 17px;
+  }
+
+  .current-user-avi {
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .stories {
+    display: flex;
+    flex-direction: row;
+    max-width: 468px;
+    height: 116px;
+    margin-top: 85px;
+    margin-left: 390px;
+    border-radius: 8px;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: white;
+    align-items: center;
+  }
+
+  .container {
+      flex-shrink: 2;
+  }
+
+  .breezy {
+    margin-bottom: 10px;
+    margin-left: 16px;
+    margin-right: 0;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid rgb(211, 26, 149);
+    padding: 2px;
+  }
+
+  .ig-posts {
+      display: flex;
+      align-items: center;
+      max-width: 468px;
+      height: 65px;
+      margin-left: 390px;
+      margin-top: 20px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border: 1px solid rgb(226, 226, 226);
+      background-color: #fff;
+  }
+
+  .ig-posts-avi {
+      display: flex;
+      height: 35px;
+      border-radius: 100%;
+      border: 1px solid rgb(197, 197, 197);
+      margin-left: 14px;
+  }
+  
